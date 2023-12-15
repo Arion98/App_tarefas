@@ -1,0 +1,48 @@
+.alterar, .excluir {cursor:pointer;}
+
+.Container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.6em;
+    margin: auto;
+}
+
+.Border{
+    
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+   
+
+}
+
+.category {
+     
+    background-color: #222222;
+    color: #fb3;
+    border-radius: 15px;
+    width: 78%;
+    padding: 1.5em;
+    margin-bottom: 1.3em;
+    font-size: calc(.4em + 1.2vw);
+}
+
+.input{     
+    background-color: #c4c0c025;
+    padding: 3%;
+    border-radius: 10px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 3.7%;
+}
+
+h1{
+    margin-bottom: 3%;
+}
+
+p{
+    display: inline;
+    color: #6e6d6d;
+    font-weight: bold;
+}
